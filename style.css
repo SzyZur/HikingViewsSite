@@ -1,0 +1,36 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.container {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
