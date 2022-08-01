@@ -1,7 +1,12 @@
 * {
     font-family: 'Lato', sans-serif;
+    background-image: url("img/2.jpg");
 }
 
+.top {
+    
+    
+}
 header {
     text-align: center;
     font-size: 70px;
@@ -28,9 +33,14 @@ nav ul {
 nav ul li{
     display: inline;
     padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 
 nav ul li a{
     text-decoration: none;
 }
+
+
 
