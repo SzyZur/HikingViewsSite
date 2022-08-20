@@ -75,7 +75,7 @@ main .p3 {
    
 .gallery img {
     width: 80%;
-    height: 20em;
+    height: 10em;
     border-radius: 15%;
     -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
@@ -130,6 +130,10 @@ main .p3 {
     display: none;
 }
 
+/* .boxElement img{
+    width: 100%;
+} */
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -152,4 +156,19 @@ main .p3 {
   
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
 }
