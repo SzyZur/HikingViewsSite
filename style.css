@@ -74,8 +74,9 @@ main .p3 {
 }
    
 .gallery img {
+    
     width: 80%;
-    height: 10em;
+    height: 20em;
     border-radius: 15%;
     -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
